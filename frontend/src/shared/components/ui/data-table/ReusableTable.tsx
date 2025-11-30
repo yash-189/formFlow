@@ -105,7 +105,7 @@ export function ReusableTable<TData>({
                                 <TableRow
                                     key={row.id}
                                     data-state={row.getIsSelected() && 'selected'}
-                                    className="hover:bg-slate-50"
+                                    
                                 >
                                     {row.getVisibleCells().map((cell) => (
                                         <TableCell key={cell.id} className="text-nowrap">
