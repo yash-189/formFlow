@@ -25,7 +25,7 @@ export const createApp = (db: mongoose.Connection) => {
         res.json({ status: 'ok', timestamp: new Date().toISOString() });
     });
 
-    // Error Handling (must be last)
+    // Error Handling Middleware
     app.use(errorHandler);
 
     return app;

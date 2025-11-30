@@ -1,6 +1,5 @@
 import { z } from 'zod';
 
-// Shared with frontend!
 export const createSubmissionSchema = z.object({
     formId: z.string(),
     data: z.record(z.unknown()),
