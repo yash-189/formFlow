@@ -2,9 +2,6 @@
 
 A modern, dynamic form builder and submission management system built with React, TypeScript, and TailwindCSS.
 
-## Overview
-
-FormFlow is a web application that provides a flexible form rendering system with real-time validation, dark mode support, and a comprehensive submission viewer. The application features a clean, modern UI built with shadcn/ui components and follows industry-standard architectural patterns.
 
 ## Tech Stack
 
