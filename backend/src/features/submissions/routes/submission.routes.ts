@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import type { SubmissionController } from '../controllers/submission.controller';
-import { validateRequest } from '@/shared/middleware/validateRequest';
+import { validateRequest } from '../../../shared/middleware/validateRequest';
 import { createSubmissionSchema, getSubmissionsQuerySchema } from '../validators/submission.validator';
 
 export const createSubmissionRoutes = (controller: SubmissionController) => {

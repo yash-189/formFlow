@@ -2,7 +2,7 @@ import type { Logger } from 'winston';
 import type { SubmissionRepository } from '../repositories/submission.repository';
 import type { FormService } from '../../forms/services/form.service';
 import type { CreateSubmissionDTO, GetSubmissionsQuery } from '../validators/submission.validator';
-import { NotFoundError } from '@/shared/errors/AppError';
+import { NotFoundError } from '../../../shared/errors/AppError';
 
 export const createSubmissionService = (
     submissionRepository: SubmissionRepository,
