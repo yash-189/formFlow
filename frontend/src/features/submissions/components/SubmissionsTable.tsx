@@ -67,8 +67,7 @@ export function SubmissionsTable() {
                     pageIndex={pageIndex}
                     onPageChange={setPageIndex}
                     onPageSizeChange={setPageSize}
-                    sorting={sorting}
-                    onSortingChange={setSorting}
+
                 />
             </div>
 
