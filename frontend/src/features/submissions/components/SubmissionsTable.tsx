@@ -17,10 +17,8 @@ export function SubmissionsTable() {
         columns,
         pageIndex,
         pageSize,
-        sorting,
         setPageIndex,
         setPageSize,
-        setSorting,
         selectedSubmission,
         setSelectedSubmission,
     } = useSubmissionsTable();
